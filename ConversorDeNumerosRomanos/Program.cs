@@ -89,6 +89,8 @@
                     return false;
             }
 
+            return true;
+
             for (int i = 0; i < numeroRomano.Length - 1; i++)
             {
                 int actual = ValorLetra(numeroRomano[i]);
@@ -106,8 +108,6 @@
                         return false;
                 }
             }
-
-            return true;
         }
     }
 }
